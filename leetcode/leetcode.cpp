@@ -18,5 +18,4 @@ int main()
 	bool res = demo->exist(board, word);
 	cout<<res<<endl;
 	delete demo;
-	return 0;
 }
