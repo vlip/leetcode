@@ -1,6 +1,6 @@
 #include "Demo79.h"
 
-bool Demo79::exist(vector<vector<char>>& board, string word) {
+bool Demo79::exist(vector<vector<char> >& board, string word) {
 	if (word.length() == 0)return false;
 	for (int i = 0; i < board.size(); i++) {
 		for (int j = 0; j < board[0].size(); j++) {
@@ -12,7 +12,7 @@ bool Demo79::exist(vector<vector<char>>& board, string word) {
 	return false;
 }
 
-bool Demo79::check(vector<vector<char>>& board, string word, int i, int j) {
+bool Demo79::check(vector<vector<char> >& board, string word, int i, int j) {
 	if (i == -1 || j == -1 || i == board.size() || j == board[0].size()) {
 		return false;
 	}
