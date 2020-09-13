@@ -11,8 +11,8 @@ int main()
 {
 	std::cout << "Hello World!\n";
 
-	vector<vector<char> > board({ {'A', 'B', 'C', 'E'},{'S', 'F', 'C', 'S'},{'A', 'D', 'E', 'E'} });
-	string word = "ABCB";
+	vector<vector<char> > board{ {'A', 'B', 'C', 'E'},{'S', 'F', 'C', 'S'},{'A', 'D', 'E', 'E'} };
+	string word = "ABCCED";
 
 	Demo79 *demo = new Demo79();
 	bool res = demo->exist(board, word);
