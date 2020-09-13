@@ -11,7 +11,7 @@ int main()
 {
 	std::cout << "Hello World!\n";
 
-	vector<vector<char> > board = { {'A', 'B', 'C', 'E'},{'S', 'F', 'C', 'S'},{'A', 'D', 'E', 'E'}  };
+	vector<vector<char> > board({ {'A', 'B', 'C', 'E'},{'S', 'F', 'C', 'S'},{'A', 'D', 'E', 'E'} });
 	string word = "ABCB";
 
 	Demo79 *demo = new Demo79();
